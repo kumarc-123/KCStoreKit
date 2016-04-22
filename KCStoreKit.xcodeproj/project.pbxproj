@@ -7,9 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6EBCB146956DE09B4841CF3F /* libPods-KCStoreKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BBC5AB4F7DC13940D02AF38 /* libPods-KCStoreKit.a */; };
 		AD8FAECD1CC65BC40029A33E /* KCStoreKit.h in Headers */ = {isa = PBXBuildFile; fileRef = AD8FAECC1CC65BC40029A33E /* KCStoreKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AD8FAED41CC65BC40029A33E /* KCStoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD8FAEC91CC65BC40029A33E /* KCStoreKit.framework */; };
 		AD8FAED91CC65BC40029A33E /* KCStoreKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AD8FAED81CC65BC40029A33E /* KCStoreKitTests.m */; };
+		ADEC36D91CCA0D7000CAE3ED /* KCStoreManager.h in Headers */ = {isa = PBXBuildFile; fileRef = ADEC36D71CCA0D7000CAE3ED /* KCStoreManager.h */; };
+		ADEC36DA1CCA0D7000CAE3ED /* KCStoreManager.m in Sources */ = {isa = PBXBuildFile; fileRef = ADEC36D81CCA0D7000CAE3ED /* KCStoreManager.m */; };
+		ADEC36DC1CCA0E9000CAE3ED /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADEC36DB1CCA0E9000CAE3ED /* StoreKit.framework */; };
+		ADEC36DF1CCA0F3E00CAE3ED /* KCStoreKitUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = ADEC36DD1CCA0F3E00CAE3ED /* KCStoreKitUtil.h */; };
+		ADEC36E01CCA0F3E00CAE3ED /* KCStoreKitUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = ADEC36DE1CCA0F3E00CAE3ED /* KCStoreKitUtil.m */; };
+		ADEC36E31CCA1F7A00CAE3ED /* KCConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = ADEC36E11CCA1F7A00CAE3ED /* KCConstants.h */; };
+		ADEC36E41CCA1F7A00CAE3ED /* KCConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = ADEC36E21CCA1F7A00CAE3ED /* KCConstants.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,12 +31,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1BBC5AB4F7DC13940D02AF38 /* libPods-KCStoreKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KCStoreKit.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4158F9194666E8C485685B20 /* Pods-KCStoreKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KCStoreKit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KCStoreKit/Pods-KCStoreKit.debug.xcconfig"; sourceTree = "<group>"; };
+		9CDD7DF7E1ABB354B6011E27 /* Pods-KCStoreKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KCStoreKit.release.xcconfig"; path = "Pods/Target Support Files/Pods-KCStoreKit/Pods-KCStoreKit.release.xcconfig"; sourceTree = "<group>"; };
 		AD8FAEC91CC65BC40029A33E /* KCStoreKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KCStoreKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD8FAECC1CC65BC40029A33E /* KCStoreKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KCStoreKit.h; sourceTree = "<group>"; };
 		AD8FAECE1CC65BC40029A33E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AD8FAED31CC65BC40029A33E /* KCStoreKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KCStoreKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD8FAED81CC65BC40029A33E /* KCStoreKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KCStoreKitTests.m; sourceTree = "<group>"; };
 		AD8FAEDA1CC65BC40029A33E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADEC36D71CCA0D7000CAE3ED /* KCStoreManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCStoreManager.h; sourceTree = "<group>"; };
+		ADEC36D81CCA0D7000CAE3ED /* KCStoreManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCStoreManager.m; sourceTree = "<group>"; };
+		ADEC36DB1CCA0E9000CAE3ED /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		ADEC36DD1CCA0F3E00CAE3ED /* KCStoreKitUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCStoreKitUtil.h; sourceTree = "<group>"; };
+		ADEC36DE1CCA0F3E00CAE3ED /* KCStoreKitUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCStoreKitUtil.m; sourceTree = "<group>"; };
+		ADEC36E11CCA1F7A00CAE3ED /* KCConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCConstants.h; sourceTree = "<group>"; };
+		ADEC36E21CCA1F7A00CAE3ED /* KCConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCConstants.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6EBCB146956DE09B4841CF3F /* libPods-KCStoreKit.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -43,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ADEC36DC1CCA0E9000CAE3ED /* StoreKit.framework in Frameworks */,
 				AD8FAED41CC65BC40029A33E /* KCStoreKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -50,12 +70,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		00C59812CE89E4201EA1B727 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1BBC5AB4F7DC13940D02AF38 /* libPods-KCStoreKit.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6BA7ABA3267D77FDDC110F29 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4158F9194666E8C485685B20 /* Pods-KCStoreKit.debug.xcconfig */,
+				9CDD7DF7E1ABB354B6011E27 /* Pods-KCStoreKit.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		AD8FAEBF1CC65BC40029A33E = {
 			isa = PBXGroup;
 			children = (
+				ADEC36DB1CCA0E9000CAE3ED /* StoreKit.framework */,
 				AD8FAECB1CC65BC40029A33E /* KCStoreKit */,
 				AD8FAED71CC65BC40029A33E /* KCStoreKitTests */,
 				AD8FAECA1CC65BC40029A33E /* Products */,
+				6BA7ABA3267D77FDDC110F29 /* Pods */,
+				00C59812CE89E4201EA1B727 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -72,6 +112,12 @@
 			isa = PBXGroup;
 			children = (
 				AD8FAECC1CC65BC40029A33E /* KCStoreKit.h */,
+				ADEC36DD1CCA0F3E00CAE3ED /* KCStoreKitUtil.h */,
+				ADEC36DE1CCA0F3E00CAE3ED /* KCStoreKitUtil.m */,
+				ADEC36D71CCA0D7000CAE3ED /* KCStoreManager.h */,
+				ADEC36D81CCA0D7000CAE3ED /* KCStoreManager.m */,
+				ADEC36E11CCA1F7A00CAE3ED /* KCConstants.h */,
+				ADEC36E21CCA1F7A00CAE3ED /* KCConstants.m */,
 				AD8FAECE1CC65BC40029A33E /* Info.plist */,
 			);
 			path = KCStoreKit;
@@ -93,7 +139,10 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ADEC36D91CCA0D7000CAE3ED /* KCStoreManager.h in Headers */,
 				AD8FAECD1CC65BC40029A33E /* KCStoreKit.h in Headers */,
+				ADEC36E31CCA1F7A00CAE3ED /* KCConstants.h in Headers */,
+				ADEC36DF1CCA0F3E00CAE3ED /* KCStoreKitUtil.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -104,10 +153,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AD8FAEDD1CC65BC40029A33E /* Build configuration list for PBXNativeTarget "KCStoreKit" */;
 			buildPhases = (
+				3422806844B4DE54E159E09E /* Check Pods Manifest.lock */,
 				AD8FAEC41CC65BC40029A33E /* Sources */,
 				AD8FAEC51CC65BC40029A33E /* Frameworks */,
 				AD8FAEC61CC65BC40029A33E /* Headers */,
 				AD8FAEC71CC65BC40029A33E /* Resources */,
+				C54D2BEEC08F94DB617E8772 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -188,11 +239,47 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3422806844B4DE54E159E09E /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C54D2BEEC08F94DB617E8772 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KCStoreKit/Pods-KCStoreKit-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		AD8FAEC41CC65BC40029A33E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ADEC36E41CCA1F7A00CAE3ED /* KCConstants.m in Sources */,
+				ADEC36E01CCA0F3E00CAE3ED /* KCStoreKitUtil.m in Sources */,
+				ADEC36DA1CCA0D7000CAE3ED /* KCStoreManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,7 +339,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -293,7 +380,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -305,6 +392,7 @@
 		};
 		AD8FAEDE1CC65BC40029A33E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4158F9194666E8C485685B20 /* Pods-KCStoreKit.debug.xcconfig */;
 			buildSettings = {
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -312,6 +400,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = KCStoreKit/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.thirdeyeinc.sampledata.KCStoreKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -321,6 +410,7 @@
 		};
 		AD8FAEDF1CC65BC40029A33E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9CDD7DF7E1ABB354B6011E27 /* Pods-KCStoreKit.release.xcconfig */;
 			buildSettings = {
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -328,6 +418,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = KCStoreKit/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.thirdeyeinc.sampledata.KCStoreKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -374,6 +465,7 @@
 				AD8FAEDF1CC65BC40029A33E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AD8FAEE01CC65BC40029A33E /* Build configuration list for PBXNativeTarget "KCStoreKitTests" */ = {
 			isa = XCConfigurationList;
@@ -382,6 +474,7 @@
 				AD8FAEE21CC65BC40029A33E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
