@@ -21,14 +21,14 @@ s.author = { "Kumar C" => "kumarchikkanna1@gmail.com" }
 
 
 # 5 - Replace this URL with your own Github page's URL (from the address bar)
-s.homepage = "[Your RWPickFlavor Homepage URL Goes Here]"
+s.homepage = "https://github.com/kumarc-123/KCStoreKit"
 
 # For example,
 # s.homepage = "https://github.com/JRG-Developer/RWPickFlavor"
 
 
 # 6 - Replace this URL with your own Git URL from "Quick Setup"
-s.source = { :git => "[Your RWPickFlavor Git URL Goes Here]", :tag => "#{s.version}"}
+s.source = { :git => "https://github.com/kumarc-123/KCStoreKit.git", :tag => "#{s.version}"}
 
 # For example,
 # s.source = { :git => "https://github.com/JRG-Developer/RWPickFlavor.git", :tag => "#{s.version}"}
